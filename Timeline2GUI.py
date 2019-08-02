@@ -420,7 +420,7 @@ def get_reduced_data(self, query):
 #for settings
 if __name__ == '__main__':
     root = tk.Tk()
-    root.resizable(0,0)
+    root.resizable(True, True)
 	
     try:
         config_file = open("configuration.txt", 'r')
